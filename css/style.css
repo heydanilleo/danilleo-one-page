@@ -1,4 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
 body {
-    background-color: pink;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+a {
+  color: #212529;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+header {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+header img {
+  width: 250px;
+}
+
+footer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+footer a {
+  margin-right: 5px;
+  font-weight: 400;
+}
+
+a:hover {
+  color: #adb5bd;
 }
